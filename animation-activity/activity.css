@@ -29,7 +29,7 @@ nav {
 
 @keyframes top {
   from {transform: rotate(0deg) translateX(0) translateY(0);}
-  to {transform: rotate(45deg) translateX(1.5467960839em) translateY(1.5467960839em);}
+  to {transform: rotate(45deg) translateX(1.5026019101em) translateY(1.5026019101em);}
 }
 
 @keyframes middle {
@@ -39,10 +39,7 @@ nav {
 
 @keyframes bottom {
   from {transform: rotate(0deg) translateX(0) translateY(0);}
-  to {transform: rotate(-45deg) translateX(1.5467960839em) translateY(-1.5467960839em);}
+  to {transform: rotate(-45deg) translateX(1.5026019101em) translateY(-1.5026019101em);}
 }
-  /*The transform function broke when i tired to seperate the translates from the rotation. So I pulled out my unit circle
-  and made this work with math. The number of pixles should be the square root of 2 divided by 2 times 35.
-  the pixles seem to be rounding so the x doesnt line up perfectly even though I did the math right.
-  I converted it to ems but there still seems to be some rounding error. It should look fine with the number of 
-  sig figs I used but it's still pretty noticable. Whatever I'm sure there was an easier way to do this.*/
+  /*The transform function broke when i tried to seperate the translates from the rotation. So I pulled out my unit circle
+  and made this work with math. The number of pixles should be the square root of 2 divided by 2 times 34.*/
